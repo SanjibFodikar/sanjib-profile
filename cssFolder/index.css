@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: #101a20;
+}
+/*============================ navbar ============================*/
+.navContainer{
+    background-color: #101a20;
+    border-bottom: 2px solid #ffff;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.navContainer i{
+    font-size: 20px;
+}
+
+/* ===================== Little introduction ======================= */
+.little-introduction{
+    margin-top: 100px;
+}
+.little-introduction .introduction-image{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.little-introduction .introduction h1{
+  color: #ffff;
+}
+.little-introduction .introduction span{
+    color: #1387c1;
+}
+.little-introduction .introduction p{
+    color: #ffff;
+}
+.downloadcv{
+    background-color: #1387c1;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+.downloadcv a{
+    color: #ffff;
+    text-decoration: none;
+}
+.downloadcv a i{
+    margin-right: 10px;
+}
+/* ==========================About us ============================= */
+#about .col-12 h2{
+  color: #ffff;
+}
+#about .col-12 p{
+  color: #ffff;
+}
+/* =========================
+   Language Card (Modern UI)
+========================= */
+.languagecard {
+    background: linear-gradient(145deg, #0f172a, #111c2e);
+    border-radius: 14px;
+    padding: 25px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.35s ease;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+
+/* Hover effect */
+.languagecard:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 35px rgba(20, 98, 180, 0.25);
+    border-color: rgba(20, 98, 180, 0.4);
+}
+
+/* =========================
+   Icon Box
+========================= */
+.languagecard .icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+    background: rgba(20, 98, 180, 0.08);
+    border: 1px solid rgba(20, 98, 180, 0.25);
+    transition: 0.3s ease;
+}
+
+.languagecard:hover .icon {
+    background: rgba(20, 98, 180, 0.15);
+    transform: scale(1.05);
+}
+
+/* Icon */
+.languagecard .icon i {
+    font-size: 32px;
+    color: #4ea1ff;
+}
+
+/* =========================
+   Text Styling
+========================= */
+.languagecard h5 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.languagecard p {
+    color: #a9b4c0;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+/* FIX: avoid global selector mistake */
+#about .skill{
+    text-align: center;
+    color: #1387c1;
+    
+}
+.projects {
+    background: #020617;
+}
+
+.project-card {
+    background: #0f172a;
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h5 {
+    color: #fff;
+}
+
+.project-card p {
+    color: #cbd5f5;
+}
+
+.project-btn {
+    padding: 8px 16px;
+    background: #0d6efd;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.project-btn:hover {
+    background: #0b5ed7;
+}
+
+.project-btn.disabled {
+    background: gray;
+    pointer-events: none;
+}
+/* ================= Resume Section ================= */
+.resume {
+    background-color: #101a20;
+}
+
+/* Resume Item Card */
+.resume-item {
+    background: #142129;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid #1387c1;
+    transition: 0.3s;
+}
+
+.resume-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Text */
+.resume-item h5 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.resume-item span {
+    display: block;
+    font-size: 14px;
+    color: #1387c1;
+    margin-bottom: 8px;
+}
+
+.resume-item p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer {
+    background: #0f172a;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer h5 {
+    font-weight: 600;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #cbd5f5;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #0d6efd;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.social-icon:hover {
+    background: #0d6efd;
+    transform: translateY(-4px);
+}
