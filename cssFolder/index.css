@@ -166,6 +166,18 @@ body{
     background: gray;
     pointer-events: none;
 }
+
+.tech-badge {
+    display: inline-block;
+    background-color: #dbeafe;
+    color: #1d4ed8 !important;
+    border: 1px solid #93c5fd;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 3px 2px;
+}
 /* ================= Resume Section ================= */
 .resume {
     background-color: #101a20;
